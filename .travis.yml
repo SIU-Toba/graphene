@@ -8,6 +8,7 @@ node_js:
 env:
   - CXX=g++
 
+dist: bionic
 addons:
   apt:
     sources:
