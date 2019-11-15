@@ -11,8 +11,8 @@ env:
 addons:
   apt:
     sources:
-      - ubuntu-toolchain-r-test
-      - llvm-toolchain-precise-3.6
+      - sourceline: 'ppa:ubuntu-toolchain-r/test'
+      - sourceline: 'ppa:llvm-toolchain-precise/3.6'
     packages:
       - g++-4.8
       - llvm-3.6
