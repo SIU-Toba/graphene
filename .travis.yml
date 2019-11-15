@@ -12,7 +12,7 @@ addons:
   apt:
     sources:
       - sourceline: 'ppa:ubuntu-toolchain-r/test'
-      - sourceline: 'ppa:llvm-toolchain-precise/3.6'
+      - llvm-toolchain-precise-3.6
     packages:
       - g++-4.8
       - llvm-3.6
